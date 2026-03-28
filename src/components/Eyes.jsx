@@ -24,7 +24,7 @@ const Eyes = () => {
 
     return (
         <>
-            <div data-scroll data-scroll-speed='-.8' className='circle-container'>
+            <div data-scroll data-scroll-speed='-.8' data-scroll-enable-touch-speed  className='circle-container'>
                 <div className='left-circle'>
                     <div className='inner-left'>
                         <div className="eye-line" style={{ transform: `rotate(${rotat}deg)` }}>

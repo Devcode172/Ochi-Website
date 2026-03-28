@@ -1,11 +1,5 @@
 html,
 body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-html,
-body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }

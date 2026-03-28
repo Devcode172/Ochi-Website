@@ -3,7 +3,7 @@ import './Marque.css'
 
 const Marque = () => {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed='.1' className='movingText' >
+    <div data-scroll data-scroll-section data-scroll-speed='.1' data-scroll-enable-touch-speed className='movingText' >
       <div className='track'>
         <div className='border'></div>
         <div className='con'>

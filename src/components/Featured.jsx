@@ -3,7 +3,7 @@ import './Featured.css'
 const Featured = () => {
   return (
     <>
-      <section  data-scroll data-scroll-speed='.1' className='featured-main-container'>
+      <section  data-scroll data-scroll-speed='.1' data-scroll-enable-touch-speed className='featured-main-container'>
       <div className='featured-heading'> 
         <h1>Featured Projects</h1>
       </div>

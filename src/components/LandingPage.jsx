@@ -16,7 +16,7 @@ const LandingPage = ({ isPageReady = true }) => {
     }
 
     return (
-        <div data-scroll data-scroll-section data-scroll-speed='-0.5' className='main-container'>
+        <div data-scroll data-scroll-section data-scroll-speed='-0.5' data-scroll-enable-touch-speed className='main-container'>
 
             <div className='content'>
                 <MotionH1

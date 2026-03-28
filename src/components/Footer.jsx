@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-    <footer data-scroll data-scroll-speed='.2' className='footer'>
+    <footer data-scroll data-scroll-speed='.2' data-scroll-enable-touch-speed className='footer'>
       <div className='left-footer'>
         <div className='left-upper-footer'>
         <h1>EYE-</h1>

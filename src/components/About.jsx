@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
     return (
         <>
-            <section data-scroll data-scroll-speed='0.1' className='about'>
+            <section data-scroll data-scroll-speed='.1about' data-scroll-enable-touch-speed className='about'>
 
                 <div className='about-content'>
                     We craft category-defining presentations, brand identities, and digital experiences that drive funding, sales, and market leadership.

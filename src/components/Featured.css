@@ -1,0 +1,73 @@
+.featured-main-container{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #f1f1f1;
+    /* border: 2px solid black; */
+    position: relative;
+    z-index: 3;
+}
+.featured-heading{
+    padding: 4%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+}
+.featured-heading h1{
+    font-size: 40px;
+}
+.cards-container{
+    display: flex;
+    padding: 5%;
+    /* border: 2px solid red; */
+    gap: 10%;
+    justify-content: center;
+}
+.card1{
+    flex-basis: 50%;
+    background-image: url('https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-663x551.png');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
+.card2{
+    flex-basis: 50%;
+    background-image: url('https://ochi.design/wp-content/uploads/2025/08/Med_Website_0.png');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px){
+    .featured-heading h1{
+        font-size: 34px;
+    }
+    .cards-container{
+        gap: 24px;
+    }
+    .card1,
+    .card2{
+        height: 320px;
+    }
+}
+
+@media (max-width: 768px){
+    .featured-heading{
+        padding: 18px 14px;
+    }
+    .featured-heading h1{
+        font-size: 26px;
+    }
+    .cards-container{
+        flex-direction: column;
+        padding: 20px 14px 24px;
+    }
+    .card1,
+    .card2{
+        width: 100%;
+        flex-basis: auto;
+        height: 240px;
+    }
+}
+
